@@ -35,12 +35,13 @@ nasm -f win64 calculadora.asm -o calculadora.o
 ```
 
 then link it with gcc:
-
+```bash
 gcc calculadora.o -o calculadora.exe
-
+```
 run:
-
+```bash
 calculadora.exe
+```
 
 the program will ask for two numbers and the operation.
 
